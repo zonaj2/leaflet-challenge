@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Style for the legend */
+.info.legend {
+  padding: 2px 2px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* Style for legend color boxes */
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+}
+
+.info.legend::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style for the title */
+#map-container h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+#map-container {
+  width: 100%;
+  height: 500px; 
+}
+
+
