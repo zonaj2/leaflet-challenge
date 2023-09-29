@@ -73,7 +73,7 @@ d3.json(url).then(function (data) {
 
 
 --------------------------------------------------- 
-
+** I used Google for help with the legend.
 
 
 
